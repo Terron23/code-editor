@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+#menu {
+  width 100%;
+  background-color: #e0e0e0;
+  height: 50px;
+  border-bottom: solid 1px darkgray;
+}
+
+#run {
+  float: right;
+ border-radius: 30px;
+  width: 10%;
+}
+
+#logo {
+  float: left;
+ font-weight: bold;
+}
+
+#drop {
+  margin-top: 5px;
+}
+
+.too {
+  background-color: gray;
+}
+
+.active {
+  background-color: gray;
+}
+
+button: focus {
+  outline: solid 2px !important;
+}
+
+.clear {
+  clear: both;
+}
+
+.codeblock  {
+  width: 50%;
+    height: 100%;
+  float: left;
+height: 90vw;
+ position: relative;
+ border-right: ;  
+}
+.codeblock textarea {
+  
+  width: 100%;
+  height: 100%;
+ border-right: solid 1px;
+  font-family: monotype;
+  font-size: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  box-sizing: border-box;
+}
+
+textarea:focus {
+    outline: none !important;
+    border:3px solid green;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+
+
+
+#change {
+  margin-top: 0px;
+}
+
+#changeCss {
+  margin-top: 0px;
+}
+
+.label {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  color: black;
+  font-family: times;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px;
+}
+
+
+#CSS, #Javascript {
+  display: none;
+}
+
+
+
+iframe {
+  height: 100%;
+    width: 100%;
+  border: none;
+}
